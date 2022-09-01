@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Primer Blog</title>
+</head>
+<body> <!-- header - section - footer -->
+    <header> <!-- agrupar links, logos imagenes, se pueden crear n etiquetas header, no se puede colocar header dentro de otra etiqueta -->
+        <h1 id="titulo">Blog de Gastón</h1> <!-- ID= asigna atributo para poder asignar JS o estilo -->
+    </header>
+    <div> <!-- similar a article, divide articulos y agrupa secciones -->
+        <p>soy un parrafo dentro de div</p> 
+    </div>
+    <section> <!-- define secciones como articulos y etiquetas -->
+        <article class="post"> <!-- define contenido independiente para cada post, titulos descripcion y parrafo-->
+            <h2>Titulo de mi post</h2>
+            <p>Descripción de mi post</p>
+            <img src="IMG/Dado.png" width="400" />
+            <p>Texto del arículo que hay acá es de prueba</p>
+        </article>
+        <article class="post"> <!-- tributo class a mas de un elemento con mismo nombre, ayuda con selectores en JS o CSS -->
+            <h2>Titulo de mi post 2</h2>
+            <p>Descripción de mi post 2</p>
+            <img src="IMG/dado2.jpg" width="400" />
+            <p>Texto del arículo que hay acá es de prueba</p>
+        </article>
+        <article class="post"> 
+            <h2>Titulo de mi post 3</h2>
+            <p>Descripción de mi post 3</p>
+            <img src="IMG/dado3.png" width="400" />
+            <p>Texto del arículo que hay acá es de prueba</p>
+        </article>
+    </section>
+    <footer> <!-- pie de pagina copy right, info de sitio links entre otros de autor -->
+     <a href="#titulo">Ir arriba</a>
+     <a href="mailto:gavektmvidal@gmail.com">Contactar acá</a>
+     <p>Copyright 2022</p>
+    </footer>
+</body>
+</html>
